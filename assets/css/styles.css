@@ -9,6 +9,10 @@ body{
     width: 100%;
     height: 100%;
 }
+.github img{
+width:20px;
+height: 20px;
+}
 .todo-list-container{
     display: flex;
     flex-direction: column;
