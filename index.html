@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="todo-list-container">
+            <h3>TODO</h3>
+            <div class="top">
+                <div class="input">
+                    <input type="text" id="add-input" placeholder="Enter Your Task" class="todo-add">
+                    <img src="./assets/images/add.svg" id="task-add-btn"></img >
+                </div>
+                <div id="cases">
+                <p class="total-task" > Total Tasks <span  id="task-counter"> 0</span></p>
+
+                <div class="cases-container">
+                    <input name="case" type="radio" id="all">
+                    <label for="all">Show All</label>
+                    <input name="case" type="radio" id="completed">
+                    <label for="completed">Completed</label>
+                    <input name="case" type="radio" name="" id="not-completed">
+                    <label for="not-completed">Not Completed</label>
+                </div>
+                
+            </div>
+            </div>
+            <div class="bottom">
+                <ul id="list">
+                     
+                     
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+
+</body>
+</html>
